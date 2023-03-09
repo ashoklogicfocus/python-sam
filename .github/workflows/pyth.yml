@@ -23,5 +23,5 @@ jobs:
           
       - name: Test
         run: |
-          pytest sample3.py
+          python sample3.py
           
