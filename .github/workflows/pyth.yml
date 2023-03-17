@@ -12,3 +12,13 @@ jobs:
           headless: true
           licensekey: ${{ secrets. LIQUIBASE_LICENSE_KEY }}
           loglevel: INFO
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+      - name: build
+        run: |
+          
+          
+      - name: Test
+        run: |
+          python sample3.py
