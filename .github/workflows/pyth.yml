@@ -8,7 +8,7 @@ jobs:
       - uses: liquibase-github-actions/rollback-one-changest@v4
         with: 
           changelogfile: ""
-          url: "" 
+          url: "https://github.com/lforganization/python-sam.git" 
           headless: true
           licensekey: ${{ secrets. LIQUIBASE_LICENSE_KEY }}
           loglevel: INFO
